@@ -1,0 +1,10 @@
+{
+  "config": "E1-recursive",
+  "chunking": "recursive",
+  "search": "dense",
+  "n_chunks": 221,
+  "n_questions": 80,
+  "hit@5": 0.8625,
+  "mrr@10": 0.69171626984127,
+  "thin_hits": 0
+}

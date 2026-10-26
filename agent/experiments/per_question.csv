@@ -1,0 +1,36 @@
+route_id,label,loai,tuyen,so_lan_goi,ma_da_goi,dung_tuyen,diem,dai,dung_so_lieu,dung_can_cu,dat_ca_hai
+R01,ML,thuong,ML,1,264263,True,,,,,
+R02,ML,thuong,ML,1,160518,True,,,,,
+R03,ML,thuong,ML,1,379612,True,,,,,
+R04,ML,thuong,ML,1,345224,True,,,,,
+R05,ML,thuong,ML,1,338321,True,,,,,
+R06,ML,thuong,ML,2,182659;217400,True,,,,,
+R07,ML,thuong,ML,1,198435,True,,,,,
+R08,ML,thuong,ML,1,253831,True,,,,,
+R09,ML,de_nham,ML+RAG,2,118588,False,,,,,
+R10,ML,ma_loi,ML,1,334047,True,,,,,
+R11,ML,ma_loi,ML,1,456300,True,,,,,
+R12,RAG,de_nham,RAG,1,,True,,,,,
+R13,RAG,de_nham,RAG,1,,True,,,,,
+R14,RAG,de_nham,RAG,1,,True,,,,,
+R15,RAG,de_nham,RAG,1,,True,,,,,
+R16,RAG,thuong,RAG,1,,True,,,,,
+R17,RAG,thuong,RAG,1,,True,,,,,
+R18,RAG,thuong,RAG,1,,True,,,,,
+R19,RAG,thuong,RAG,1,,True,,,,,
+R20,RAG,thuong,RAG,1,,True,,,,,
+R21,RAG,de_nham,RAG,1,,True,,,,,
+R22,RAG,thuong,RAG,1,,True,,,,,
+R23,RAG,thuong,RAG,1,,True,,,,,
+R24,ML+RAG,thuong,ML+RAG,2,122255,True,33.4,cao,True,True,True
+R25,ML+RAG,thuong,ML+RAG,2,419397,True,26.9,cao,True,True,True
+R26,ML+RAG,thuong,ML+RAG,2,354201,True,23.1,cao,True,True,True
+R27,ML+RAG,de_nham,ML+RAG,2,293773,True,9.6,trung bình,True,False,False
+R28,ML+RAG,thuong,ML+RAG,3,145771,True,52.2,cao,True,True,True
+R29,ML+RAG,thuong,ML+RAG,2,254169,True,6.6,trung bình,True,True,True
+R30,ML+RAG,thuong,ML+RAG,2,215078,True,1.4,thấp,True,True,True
+R31,ML+RAG,de_nham,ML+RAG,2,308275,True,3.0,thấp,False,True,False
+R32,ML+RAG,thuong,ML+RAG,2,352309,True,0.6,thấp,True,True,True
+R33,ML+RAG,thuong,ML+RAG,2,279721,True,13.2,trung bình,True,True,True
+R34,ML+RAG,thuong,ML+RAG,2,393484,True,4.9,thấp,True,True,True
+R35,ML+RAG,thuong,ML+RAG,2,129772,True,33.4,cao,True,True,True

@@ -1,0 +1,10 @@
+{
+  "config": "E1-sentence",
+  "chunking": "sentence",
+  "search": "dense",
+  "n_chunks": 180,
+  "n_questions": 80,
+  "hit@5": 0.875,
+  "mrr@10": 0.7153075396825399,
+  "thin_hits": 1
+}

@@ -1,0 +1,10 @@
+{
+  "config": "B0",
+  "chunking": "fixed",
+  "search": "dense",
+  "n_chunks": 178,
+  "n_questions": 80,
+  "hit@5": 0.875,
+  "mrr@10": 0.7360416666666668,
+  "thin_hits": 2
+}

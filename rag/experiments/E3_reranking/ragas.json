@@ -1,0 +1,8 @@
+{
+  "config": "E3-rerank",
+  "n_questions": 80,
+  "faithfulness": 0.7992239357864357,
+  "faithfulness_n": 80,
+  "answer_relevancy": 0.777011463020071,
+  "answer_relevancy_n": 80
+}

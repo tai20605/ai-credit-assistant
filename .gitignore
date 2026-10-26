@@ -1,0 +1,25 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Khóa API
+.env
+
+# Dữ liệu Home Credit và mọi file dẫn xuất: không được phân phối lại (xem README)
+data/ml/
+ml/data/clean/
+ml/data/*.parquet
+ml/data/split.csv
+ml/data/folds.csv
+ml/models/
+
+# Mô hình BGE (tải từ Hugging Face)
+rag/models/
+
+# Tệp khóa của trình soạn thảo, hệ điều hành
+.~lock.*#
+~$*
+.DS_Store
+Thumbs.db

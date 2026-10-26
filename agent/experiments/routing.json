@@ -1,0 +1,43 @@
+{
+  "routing_accuracy": 0.9714285714285714,
+  "dung_tuyen": 34,
+  "n": 35,
+  "accuracy_theo_nhan": {
+    "ML": 0.9090909090909091,
+    "ML+RAG": 1.0,
+    "RAG": 1.0
+  },
+  "accuracy_theo_loai": {
+    "de_nham": 0.875,
+    "ma_loi": 1.0,
+    "thuong": 1.0
+  },
+  "ma_tran_nham_lan": {
+    "ML": {
+      "ML": 10,
+      "RAG": 0,
+      "ML+RAG": 1
+    },
+    "RAG": {
+      "ML": 0,
+      "RAG": 12,
+      "ML+RAG": 0
+    },
+    "ML+RAG": {
+      "ML": 0,
+      "RAG": 0,
+      "ML+RAG": 12
+    }
+  },
+  "ml_rag": {
+    "n": 12,
+    "dung_so_lieu": 11,
+    "dung_can_cu": 11,
+    "dat_ca_hai": 10
+  },
+  "so_lan_goi": {
+    "1": 21,
+    "2": 13,
+    "3": 1
+  }
+}

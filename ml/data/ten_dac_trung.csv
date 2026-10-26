@@ -1,0 +1,125 @@
+cot,ten,dang,don_vi
+NAME_CONTRACT_TYPE,Loại khoản vay đề nghị,chu,
+FLAG_OWN_CAR,Có ô tô,yn,
+FLAG_OWN_REALTY,Có nhà hoặc bất động sản,yn,
+CNT_CHILDREN,Số con,so,người
+AMT_INCOME_TOTAL,Thu nhập tháng khách hàng tự khai,tien,
+AMT_CREDIT,Số tiền vay đề nghị,tien,
+AMT_ANNUITY,Tiền trả hằng tháng của khoản đề nghị,tien,
+NAME_TYPE_SUITE,Người đi cùng khi nộp hồ sơ,chu,
+NAME_INCOME_TYPE,Nguồn thu nhập,chu,
+NAME_EDUCATION_TYPE,Trình độ học vấn,chu,
+NAME_FAMILY_STATUS,Tình trạng hôn nhân,chu,
+NAME_HOUSING_TYPE,Tình trạng nhà ở,chu,
+REGION_POPULATION_RELATIVE,Mật độ dân số tương đối của khu vực nơi ở (chuẩn hóa; cao hơn là đông dân hơn),diem,
+DAYS_REGISTRATION,Lần thay đổi đăng ký cư trú gần nhất,ngay,
+DAYS_ID_PUBLISH,Lần thay đổi giấy tờ tùy thân dùng khi nộp hồ sơ,ngay,
+OWN_CAR_AGE,Tuổi ô tô,so,năm
+FLAG_EMP_PHONE,Có khai điện thoại của người sử dụng lao động,co,
+FLAG_WORK_PHONE,Có khai điện thoại nơi làm việc,co,
+FLAG_CONT_MOBILE,Liên lạc được qua điện thoại di động,co,
+FLAG_PHONE,Có khai điện thoại nhà,co,
+FLAG_EMAIL,Có khai email,co,
+OCCUPATION_TYPE,Nghề nghiệp,chu,
+CNT_FAM_MEMBERS,Số thành viên gia đình,so,người
+REGION_RATING_CLIENT,Xếp hạng khu vực nơi ở (1 tốt nhất – 3),so,
+WEEKDAY_APPR_PROCESS_START,Ngày trong tuần nộp hồ sơ,chu,
+HOUR_APPR_PROCESS_START,Giờ nộp hồ sơ,so,giờ
+REG_REGION_NOT_LIVE_REGION,Địa chỉ thường trú khác vùng với địa chỉ liên hệ,co,
+REG_REGION_NOT_WORK_REGION,Địa chỉ thường trú khác vùng với nơi làm việc,co,
+LIVE_REGION_NOT_WORK_REGION,Địa chỉ liên hệ khác vùng với nơi làm việc,co,
+REG_CITY_NOT_LIVE_CITY,Địa chỉ thường trú khác thành phố với địa chỉ liên hệ,co,
+REG_CITY_NOT_WORK_CITY,Địa chỉ thường trú khác thành phố với nơi làm việc,co,
+LIVE_CITY_NOT_WORK_CITY,Địa chỉ liên hệ khác thành phố với nơi làm việc,co,
+ORGANIZATION_TYPE,Loại tổ chức nơi làm việc,chu,
+EXT_SOURCE_1,Điểm tham khảo bên ngoài số 1 (0 – 1),diem,
+EXT_SOURCE_2,Điểm tham khảo bên ngoài số 2 (0 – 1),diem,
+EXT_SOURCE_3,Điểm tham khảo bên ngoài số 3 (0 – 1),diem,
+BASEMENTAREA_MODE,Diện tích tầng hầm của tòa nhà nơi ở (chuẩn hóa),diem,
+COMMONAREA_MODE,Diện tích khu vực chung của tòa nhà nơi ở (chuẩn hóa),diem,
+ELEVATORS_MODE,Số thang máy của tòa nhà nơi ở (chuẩn hóa),diem,
+ENTRANCES_MODE,Số lối vào của tòa nhà nơi ở (chuẩn hóa),diem,
+FLOORSMAX_MODE,Số tầng cao nhất của tòa nhà nơi ở (chuẩn hóa),diem,
+FLOORSMIN_MODE,Số tầng thấp nhất của tòa nhà nơi ở (chuẩn hóa),diem,
+LANDAREA_MODE,Diện tích đất của tòa nhà nơi ở (chuẩn hóa),diem,
+LIVINGAPARTMENTS_MODE,Số căn hộ để ở của tòa nhà nơi ở (chuẩn hóa),diem,
+LIVINGAREA_MODE,Diện tích ở của tòa nhà nơi ở (chuẩn hóa),diem,
+NONLIVINGAPARTMENTS_MODE,Số căn không dùng để ở của tòa nhà nơi ở (chuẩn hóa),diem,
+NONLIVINGAREA_MODE,Diện tích không dùng để ở của tòa nhà nơi ở (chuẩn hóa),diem,
+YEARS_BUILD_MEDI,Tuổi tòa nhà nơi ở (chuẩn hóa),diem,
+FONDKAPREMONT_MODE,Quỹ sửa chữa lớn của tòa nhà nơi ở,chu,
+HOUSETYPE_MODE,Loại nhà nơi ở,chu,
+WALLSMATERIAL_MODE,Vật liệu tường của tòa nhà nơi ở,chu,
+EMERGENCYSTATE_MODE,Tòa nhà nơi ở trong tình trạng xuống cấp khẩn cấp,chu,
+DAYS_LAST_PHONE_CHANGE,Lần đổi số điện thoại gần nhất,ngay,
+FLAG_DOCUMENT_3,Đã nộp giấy tờ loại 3,co,
+FLAG_DOCUMENT_5,Đã nộp giấy tờ loại 5,co,
+FLAG_DOCUMENT_6,Đã nộp giấy tờ loại 6,co,
+FLAG_DOCUMENT_8,Đã nộp giấy tờ loại 8,co,
+FLAG_DOCUMENT_9,Đã nộp giấy tờ loại 9,co,
+FLAG_DOCUMENT_11,Đã nộp giấy tờ loại 11,co,
+FLAG_DOCUMENT_13,Đã nộp giấy tờ loại 13,co,
+FLAG_DOCUMENT_14,Đã nộp giấy tờ loại 14,co,
+FLAG_DOCUMENT_15,Đã nộp giấy tờ loại 15,co,
+FLAG_DOCUMENT_16,Đã nộp giấy tờ loại 16,co,
+FLAG_DOCUMENT_18,Đã nộp giấy tờ loại 18,co,
+AMT_REQ_CREDIT_BUREAU_HOUR,Số lần tra cứu CIC trong 1 giờ trước khi nộp,so,lần
+AMT_REQ_CREDIT_BUREAU_DAY,Số lần tra cứu CIC trong 1 ngày trước khi nộp (trừ 1 giờ cuối),so,lần
+AMT_REQ_CREDIT_BUREAU_WEEK,Số lần tra cứu CIC trong 1 tuần trước khi nộp (trừ 1 ngày cuối),so,lần
+AMT_REQ_CREDIT_BUREAU_MON,Số lần tra cứu CIC trong 1 tháng trước khi nộp (trừ 1 tuần cuối),so,lần
+AMT_REQ_CREDIT_BUREAU_QRT,Số lần tra cứu CIC trong 3 tháng trước khi nộp (trừ 1 tháng cuối),so,lần
+AMT_REQ_CREDIT_BUREAU_YEAR,Số lần tra cứu CIC trong 1 năm trước khi nộp (trừ 3 tháng cuối),so,lần
+TUOI,Tuổi,so,năm
+THAM_NIEN_THANG,Thâm niên công việc hiện tại,so,tháng
+PTI,PTI (tiền trả hằng tháng của khoản đề nghị / thu nhập tháng),pct,
+VAY_TRA_KY,Số tiền vay / tiền trả hằng tháng,so,lần
+VAY_GIA_HANG,Số tiền vay / giá hàng hóa,so,lần
+VAY_THU_NHAP,Số tiền vay / thu nhập tháng,so,lần
+CIC_SO_KHOAN,Số khoản vay trên CIC,so,khoản
+CIC_SO_KHOAN_HOAT_DONG,Số khoản đang hoạt động trên CIC,so,khoản
+CIC_SO_KHOAN_MO_12_THANG,Số khoản trên CIC mở trong 12 tháng trước khi nộp,so,khoản
+CIC_THANG_TU_KHOAN_MOI_NHAT,Thời gian từ khoản mới nhất trên CIC,so,tháng
+CIC_DU_NO_HOAT_DONG,Dư nợ các khoản đang hoạt động trên CIC,tien,
+CIC_SO_TIEN_VAY_HOAT_DONG,Số tiền vay ban đầu của các khoản đang hoạt động trên CIC,tien,
+CIC_TRA_HANG_THANG,Tiền trả hằng tháng các khoản đang hoạt động trên CIC (khoản có ghi),tien,
+CIC_QUA_HAN_HIEN_TAI,Số ngày quá hạn hiện tại theo CIC,so,ngày
+CIC_TIEN_QUA_HAN_LON_NHAT,Số tiền quá hạn lớn nhất từng có trên CIC,tien,
+CIC_SO_LAN_GIA_HAN,Số lần gia hạn nợ trên CIC,so,lần
+CIC_CO_NO_XAU_DA_XU_LY,Từng có khoản nợ xấu đã xử lý hoặc đã bán trên CIC,co,
+CIC_TY_LE_DU_NO,Dư nợ / số tiền vay ban đầu của các khoản đang hoạt động trên CIC,pct,
+CICT_SO_THANG_QH_TREN_30,Số tháng quá hạn trên 30 ngày trong lịch sử CIC từng tháng,so,tháng
+CICT_SO_THANG_NO_XAU,Số tháng quá hạn trên 90 ngày trong lịch sử CIC từng tháng,so,tháng
+CICT_TY_LE_THANG_QH,Tỷ lệ tháng có quá hạn trong lịch sử CIC từng tháng,pct,
+CICT_SO_THANG_QH_12_THANG,Số tháng có quá hạn trên CIC trong 12 tháng gần nhất,so,tháng
+CICT_THANG_TU_QH_GAN_NHAT,Thời gian từ lần quá hạn gần nhất trên CIC,so,tháng
+AT_SO_HO_SO,Số hồ sơ đã nộp tại AT Credit trước đây,so,hồ sơ
+AT_SO_HO_SO_DUYET,Số hồ sơ cũ tại AT Credit được duyệt,so,hồ sơ
+AT_TY_LE_TU_CHOI,Tỷ lệ hồ sơ cũ tại AT Credit bị từ chối,pct,
+AT_TU_CHOI_30_NGAY,Bị AT Credit từ chối trong 30 ngày trước,co,
+AT_THANG_TU_HO_SO_GAN_NHAT,Thời gian từ hồ sơ cũ gần nhất tại AT Credit,so,tháng
+AT_THANG_TU_TU_CHOI_GAN_NHAT,Thời gian từ lần bị AT Credit từ chối gần nhất,so,tháng
+AT_KY_HAN_TB,Kỳ hạn trung bình các khoản trả góp cũ được duyệt tại AT Credit,so,tháng
+AT_SO_KHOAN_HOAT_DONG,Số khoản AT Credit đang hoạt động,so,khoản
+KY_SO_KY,Số kỳ trả nợ của các khoản cũ tại AT Credit,so,kỳ
+KY_MAX_NGAY_QH,Số ngày quá hạn lớn nhất của một kỳ trả nợ tại AT Credit,so,ngày
+KY_SO_KY_QH_90,Số kỳ trả nợ quá hạn trên 90 ngày tại AT Credit,so,kỳ
+KY_TY_LE_KY_QH_10,Tỷ lệ kỳ trả nợ quá hạn từ 10 ngày tại AT Credit,pct,
+KY_MAX_NGAY_QH_12_THANG,Số ngày quá hạn lớn nhất của kỳ đến hạn trong 12 tháng gần nhất tại AT Credit,so,ngày
+KY_THANG_TU_QH_10_GAN_NHAT,Thời gian từ kỳ quá hạn từ 10 ngày gần nhất tại AT Credit,so,tháng
+KY_TY_LE_DA_TRA,Tổng đã trả / tổng phải trả các kỳ tại AT Credit,pct,
+KY_NGAY_TRA_SOM_TB,Số ngày trả đủ trước hạn trung bình mỗi kỳ tại AT Credit,so,ngày
+KY_SO_KY_CHUA_TRA_DU,Số kỳ chưa trả đủ tại AT Credit,so,kỳ
+TG_MAX_NGAY_QH,Số ngày quá hạn lớn nhất theo tháng của khoản trả góp cũ tại AT Credit,so,ngày
+TG_SO_THANG_QH_10,Số tháng quá hạn từ 10 ngày của khoản trả góp cũ tại AT Credit,so,tháng
+TG_THANG_TU_QH_10_GAN_NHAT,Thời gian từ tháng quá hạn từ 10 ngày gần nhất của khoản trả góp cũ,so,tháng
+TG_SO_KY_CON_LAI,Số kỳ còn lại của khoản trả góp đang hoạt động tại AT Credit,so,kỳ
+HM_MAX_NGAY_QH,Số ngày quá hạn lớn nhất theo tháng của khoản AT Flex cũ,so,ngày
+HM_SO_THANG_QH_10,Số tháng quá hạn từ 10 ngày của khoản AT Flex cũ,so,tháng
+HM_THANG_TU_QH_10_GAN_NHAT,Thời gian từ tháng quá hạn từ 10 ngày gần nhất của khoản AT Flex cũ,so,tháng
+HM_TY_LE_SU_DUNG_TB,Tỷ lệ sử dụng hạn mức AT Flex trung bình,pct,
+HM_RUT_12_THANG,Số tiền rút từ hạn mức AT Flex trong 12 tháng gần nhất,tien,
+HM_TY_LE_SU_DUNG_HIEN_TAI,Tỷ lệ sử dụng hạn mức AT Flex hiện tại,pct,
+AT_QUA_HAN_HIEN_TAI,Số ngày quá hạn hiện tại của khoản AT Credit đang hoạt động,so,ngày
+DTI,DTI (tổng tiền trả hằng tháng các khoản vay / thu nhập tháng),pct,
+TONG_DU_NO_TOI_DA,Tổng dư nợ tối đa (khoản đề nghị + khoản AT Credit đang hoạt động),tien,
+NHOM_NO_KHACH,Nhóm nợ hiện tại của khách hàng (CIC và AT Credit),so,

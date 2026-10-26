@@ -1,0 +1,18 @@
+{
+  "old": "B0",
+  "new": "E3-rerank",
+  "faithfulness": {
+    "n": 80,
+    "diff": -0.01713023088023088,
+    "ci_low": -0.06349482548701299,
+    "ci_high": 0.03196985479797977,
+    "verdict": "không đủ bằng chứng"
+  },
+  "answer_relevancy": {
+    "n": 80,
+    "diff": 0.02805748484245757,
+    "ci_low": -0.007715869931246312,
+    "ci_high": 0.07034040323815899,
+    "verdict": "không đủ bằng chứng"
+  }
+}

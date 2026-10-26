@@ -1,0 +1,10 @@
+{
+  "config": "E3-rerank",
+  "chunking": "fixed",
+  "search": "hybrid+rerank",
+  "n_chunks": 178,
+  "n_questions": 80,
+  "hit@5": 0.975,
+  "mrr@10": 0.89625,
+  "thin_hits": 1
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Trợ lý nội bộ AT Credit</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-logo" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M9 22 14.5 9h3L23 22h-3.2l-1.1-2.9h-5.4L12.2 22Zm5.1-5.5h3.8L16 11.6Z" fill="#fff"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M4 12 20 4l-4 16-4-6-8-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 14 8-10" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V5a1 1 0 0 1 1-1h9" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-retry" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4m0 0h11l-2 4 2 4H5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20h16M7 16v-5m5 5V6m5 10v-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Zm0 16a2 2 0 0 1 2-2h13v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M14 4h5v16h-5M10 8l-4 4 4 4M6 12h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div id="dang-nhap" class="gate" hidden>
+  <form id="form-khoa" class="gate-card" novalidate>
+    <svg class="gate-logo"><use href="#i-logo"/></svg>
+    <h1>Trợ lý nội bộ AT Credit</h1>
+    <p>Dành cho nhân viên AT Credit. Nhập khóa truy cập được cấp để bắt đầu.</p>
+    <label for="o-khoa">Khóa truy cập</label>
+    <input id="o-khoa" type="password" autocomplete="current-password" required>
+    <p id="loi-khoa" class="field-error" role="alert"></p>
+    <button id="nut-vao" class="btn btn-primary" type="submit">Đăng nhập</button>
+    <p class="fine">Khóa chỉ được giữ trong thẻ trình duyệt này và tự xóa khi đóng thẻ.</p>
+  </form>
+</div>
+
+<div id="ung-dung" class="app" hidden>
+  <header class="topbar">
+    <div class="brand"><svg><use href="#i-logo"/></svg><span><b>AT Credit</b> Trợ lý nội bộ</span></div>
+    <div class="topbar-actions">
+      <button id="nut-moi" class="btn btn-ghost" type="button"><svg><use href="#i-plus"/></svg><span>Phiên mới</span></button>
+      <button id="nut-thoat" class="btn btn-ghost" type="button"><svg><use href="#i-out"/></svg><span>Thoát</span></button>
+    </div>
+  </header>
+
+  <main id="luong" class="thread" role="log" aria-live="polite" aria-label="Hội thoại">
+    <section id="chao" class="welcome">
+      <h1>Bạn cần tra cứu gì hôm nay?</h1>
+      <p class="lead">Trợ lý trả lời theo văn bản nội bộ của AT Credit và kết quả mô hình chấm điểm rủi ro.</p>
+      <div class="caps">
+        <div class="cap"><svg><use href="#i-chart"/></svg><div><b>Chấm điểm rủi ro hồ sơ</b><span>Điểm, dải rủi ro và các yếu tố ảnh hưởng chính, tra theo mã hồ sơ.</span></div></div>
+        <div class="cap"><svg><use href="#i-book"/></svg><div><b>Tra cứu quy định</b><span>Quy chế, quy định, sản phẩm và văn bản pháp luật, kèm điều khoản làm căn cứ.</span></div></div>
+      </div>
+      <h2>Thử hỏi</h2>
+      <div class="suggest">
+        <button type="button">Hồ sơ 292498 có rủi ro cao không, yếu tố nào ảnh hưởng nhiều nhất?</button>
+        <button type="button">Khách muốn vay AT Cash thì kỳ hạn được chọn trong khoảng nào?</button>
+        <button type="button">Hồ sơ 292498 thuộc dải nào, và dải đó thì cấp nào phải duyệt?</button>
+        <button type="button">Khách trả nợ trước hạn có mất phí không?</button>
+      </div>
+      <h2>Cần biết</h2>
+      <ul class="limits">
+        <li>Mỗi câu hỏi được trả lời độc lập, trợ lý không nhớ câu hỏi trước. Hãy ghi đủ mã hồ sơ và tình huống trong từng câu.</li>
+        <li>Chỉ tra cứu theo mã hồ sơ; không nhập họ tên, số CCCD, số điện thoại hay địa chỉ của khách hàng.</li>
+        <li>Điểm rủi ro là căn cứ tham khảo, không thay quyết định của cấp phê duyệt và không cung cấp cho khách hàng.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="composer-wrap">
+    <form id="form-hoi" class="composer" novalidate>
+      <label for="o-hoi" class="sr-only">Câu hỏi</label>
+      <textarea id="o-hoi" rows="1" maxlength="2000" placeholder="Hỏi về một hồ sơ hoặc một quy định…"></textarea>
+      <button id="nut-gui" class="btn btn-send" type="submit" aria-label="Gửi câu hỏi"><svg><use href="#i-send"/></svg></button>
+    </form>
+    <div class="composer-meta">
+      <p id="canh-bao" class="field-error" role="alert"></p>
+      <span id="dem-ky-tu"></span>
+    </div>
+    <p class="disclaimer">Trợ lý chỉ hỗ trợ, không quyết định; đối chiếu văn bản gốc trước khi áp dụng hoặc trả lời khách hàng. Câu hỏi và câu trả lời được lưu để rà soát chất lượng (Điều 8 QĐ-26).</p>
+  </footer>
+</div>
+</body>
+</html>

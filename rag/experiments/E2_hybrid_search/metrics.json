@@ -1,0 +1,10 @@
+{
+  "config": "E2-hybrid",
+  "chunking": "fixed",
+  "search": "hybrid",
+  "n_chunks": 178,
+  "n_questions": 80,
+  "hit@5": 0.8875,
+  "mrr@10": 0.8105654761904763,
+  "thin_hits": 0
+}

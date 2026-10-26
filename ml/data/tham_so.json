@@ -1,0 +1,31 @@
+{
+  "LR": {
+    "C": 0.01,
+    "max_iter": 3000
+  },
+  "RF": {
+    "n_estimators": 300,
+    "min_samples_leaf": 6,
+    "max_features": 0.10431566828269584,
+    "max_samples": 0.5319261777965816,
+    "class_weight": "balanced"
+  },
+  "LGBM": {
+    "learning_rate": 0.02,
+    "subsample_freq": 1,
+    "max_depth": 11,
+    "num_leaves": 63,
+    "min_child_samples": 513,
+    "colsample_bytree": 0.22793022428076254,
+    "subsample": 0.8810645691556078,
+    "reg_lambda": 0.22811820202868793,
+    "n_estimators": 971,
+    "so_cay_tung_vong": [
+      969,
+      1077,
+      902,
+      848,
+      1059
+    ]
+  }
+}
